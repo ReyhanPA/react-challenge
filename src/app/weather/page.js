@@ -1,6 +1,6 @@
 export default function WeatherPage() {
   return (
-    <div className="flex pt-24 bg-white">
+    <div className="flex-col pt-24 bg-white">
       <form className="flex items-center max-w-sm mx-auto">   
         <label htmlFor="simple-search" className="sr-only">Search</label>
         <div className="relative w-full">
@@ -18,6 +18,7 @@ export default function WeatherPage() {
           <span className="sr-only">Search</span>
         </button>
       </form>
+      <h1 className="text-2xl font-bold text-center mt-4 text-cyan-800">Not implemented yet</h1>
     </div>
   );
 }
