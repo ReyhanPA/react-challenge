@@ -1,0 +1,25 @@
+const products = [
+  { productId: 1, productPicture: "/gambar_sayur.jpeg", productName: "Labu", productPrice: "10000", location: "Indonesia", company: "PT Labu Labu" },
+  { productId: 2, productPicture: "/gambar_sayur.jpeg", productName: "Tomat", productPrice: "12000", location: "Malaysia", company: "PT Segar Sejahtera" },
+  { productId: 3, productPicture: "/gambar_sayur.jpeg", productName: "Cabai", productPrice: "15000", location: "Thailand", company: "PT Tani Utama" },
+  { productId: 4, productPicture: "/gambar_sayur.jpeg", productName: "Bawang Merah", productPrice: "8000", location: "Indonesia", company: "CV Tani Bersama" },
+  { productId: 5, productPicture: "/gambar_sayur.jpeg", productName: "Bawang Putih", productPrice: "10000", location: "Vietnam", company: "PT Agro Sentosa" },
+  { productId: 6, productPicture: "/gambar_sayur.jpeg", productName: "Kentang", productPrice: "20000", location: "China", company: "PT Farm Sejahtera" },
+  { productId: 7, productPicture: "/gambar_sayur.jpeg", productName: "Kedelai", productPrice: "22000", location: "Indonesia", company: "CV Agro Makmur" },
+  { productId: 8, productPicture: "/gambar_sayur.jpeg", productName: "Wortel", productPrice: "9000", location: "Australia", company: "PT Pangan Nusantara" },
+  { productId: 9, productPicture: "/gambar_sayur.jpeg", productName: "Lada", productPrice: "13000", location: "India", company: "PT Sumber Alam" },
+  { productId: 10, productPicture: "/gambar_sayur.jpeg", productName: "Kubis", productPrice: "11000", location: "China", company: "PT Pangan Jaya" },
+  { productId: 11, productPicture: "/gambar_sayur.jpeg", productName: "Bayam", productPrice: "5000", location: "Indonesia", company: "CV Tani Maju" },
+  { productId: 12, productPicture: "/gambar_sayur.jpeg", productName: "Lobak", productPrice: "7000", location: "Malaysia", company: "PT Sejahtera Agro" },
+  { productId: 13, productPicture: "/gambar_sayur.jpeg", productName: "Terong", productPrice: "6000", location: "Thailand", company: "PT Sumber Tani" },
+  { productId: 14, productPicture: "/gambar_sayur.jpeg", productName: "Kangkung", productPrice: "4000", location: "Vietnam", company: "PT Agri Sejahtera" },
+  { productId: 15, productPicture: "/gambar_sayur.jpeg", productName: "Sawi", productPrice: "8500", location: "Indonesia", company: "CV Sumber Sehat" },
+  { productId: 16, productPicture: "/gambar_sayur.jpeg", productName: "Pisang", productPrice: "10000", location: "Philippines", company: "PT Agro Sejahtera" },
+  { productId: 17, productPicture: "/gambar_sayur.jpeg", productName: "Mangga", productPrice: "15000", location: "India", company: "PT Tani Makmur" },
+  { productId: 18, productPicture: "/gambar_sayur.jpeg", productName: "Apel", productPrice: "25000", location: "USA", company: "PT Pangan Alam" },
+  { productId: 19, productPicture: "/gambar_sayur.jpeg", productName: "Jeruk", productPrice: "12000", location: "Mexico", company: "PT Buah Segar" },
+  { productId: 20, productPicture: "/gambar_sayur.jpeg", productName: "Nanas", productPrice: "14000", location: "Costa Rica", company: "CV Agro Makmur" },
+  { productId: 21, productPicture: "/gambar_sayur.jpeg", productName: "Melon", productPrice: "16000", location: "Brazil", company: "PT Buah Jaya" },
+];
+
+export default products;
