@@ -8,6 +8,7 @@ import CartButton from "@/components/cartButton";
 import CartCard from "@/components/cartCard";
 import CheckoutButton from "@/components/checkoutButton";
 import Footer from "@/components/footer";
+import { getCityLatLon, getWeatherData } from "@/utils/apiService";
 
 export default function HomePage() {
   const [cart, setCart] = useState([]);
@@ -50,7 +51,7 @@ export default function HomePage() {
 
   const getCartPriceTotal = () => {
     return cart.reduce((total, product) => {
-      const price = parseInt(product.productPrice.replace(/[^\d]/g, '')) || 0;  // Mengambil hanya angka dari harga (misalnya "Rp 10.000" -> 10000)
+      const price = parseInt(product.productPrice.replace(/[^\d]/g, '')) || 0;
       const quantity = product.quantity || 0;
       return total + price * quantity;
     }, 0);
